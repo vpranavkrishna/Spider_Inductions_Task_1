@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Spider_Task_1">
-        <activity android:name=".Level3"></activity>
+        <activity
+            android:name=".Level3"
+            android:screenOrientation="portrait" />
+        <activity android:name=".menu" />
         <activity android:name=".Level1" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -20,6 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Level2"></activity>
     </application>
 
 </manifest>
